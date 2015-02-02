@@ -135,8 +135,8 @@ bracket. The field types should also be aligned.
 
 ```haskell
 data Point = Point
-    { pointX, pointY :: Double
-    , pointName      :: String
+    { pointX    :: Double
+    , pointName :: String
     } deriving (Show)
 ```
 
